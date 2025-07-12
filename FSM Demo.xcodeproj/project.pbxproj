@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		FB683EA12E2224DD000799B2 /* ServicesSampleData in Frameworks */ = {isa = PBXBuildFile; productRef = FB683EA02E2224DD000799B2 /* ServicesSampleData */; };
 		FBA5FCA82E2246D60088C332 /* ServicesSampleData in Frameworks */ = {isa = PBXBuildFile; productRef = FBA5FCA72E2246D60088C332 /* ServicesSampleData */; };
+		FBA6BB8A2E22486500CFBD3B /* ServicesSampleData in Frameworks */ = {isa = PBXBuildFile; productRef = FBA6BB892E22486500CFBD3B /* ServicesSampleData */; };
+		FBA6BB8D2E22487900CFBD3B /* ServicesSampleData in Frameworks */ = {isa = PBXBuildFile; productRef = FBA6BB8C2E22487900CFBD3B /* ServicesSampleData */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +45,8 @@
 			files = (
 				FBA5FCA82E2246D60088C332 /* ServicesSampleData in Frameworks */,
 				FB683EA12E2224DD000799B2 /* ServicesSampleData in Frameworks */,
+				FBA6BB8D2E22487900CFBD3B /* ServicesSampleData in Frameworks */,
+				FBA6BB8A2E22486500CFBD3B /* ServicesSampleData in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +91,8 @@
 			packageProductDependencies = (
 				FB683EA02E2224DD000799B2 /* ServicesSampleData */,
 				FBA5FCA72E2246D60088C332 /* ServicesSampleData */,
+				FBA6BB892E22486500CFBD3B /* ServicesSampleData */,
+				FBA6BB8C2E22487900CFBD3B /* ServicesSampleData */,
 			);
 			productName = "FSM Demo";
 			productReference = FB683E822E222117000799B2 /* FSM Demo.app */;
@@ -117,7 +123,7 @@
 			mainGroup = FB683E792E222117000799B2;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				FBA5FCA62E2246D60088C332 /* XCLocalSwiftPackageReference "../ServicesSampleData" */,
+				FBA6BB8B2E22487900CFBD3B /* XCLocalSwiftPackageReference "../ServicesSampleData" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = FB683E832E222117000799B2 /* Products */;
@@ -349,7 +355,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCLocalSwiftPackageReference section */
-		FBA5FCA62E2246D60088C332 /* XCLocalSwiftPackageReference "../ServicesSampleData" */ = {
+		FBA6BB8B2E22487900CFBD3B /* XCLocalSwiftPackageReference "../ServicesSampleData" */ = {
 			isa = XCLocalSwiftPackageReference;
 			relativePath = ../ServicesSampleData;
 		};
@@ -361,6 +367,14 @@
 			productName = ServicesSampleData;
 		};
 		FBA5FCA72E2246D60088C332 /* ServicesSampleData */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ServicesSampleData;
+		};
+		FBA6BB892E22486500CFBD3B /* ServicesSampleData */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ServicesSampleData;
+		};
+		FBA6BB8C2E22487900CFBD3B /* ServicesSampleData */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = ServicesSampleData;
 		};
